@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="PR Update Requested">d6749ebc17de2110593e017924846d5e</action_payload_definition>
+        <label>PR Update Requested Form</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <payload_map>sysid={{sysId}}^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:26</sys_created_on>
+        <sys_id>de749ebc29de2110471b0a332945515c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PR Update Requested Form</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_de749ebc29de2110471b0a332945515c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:26</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

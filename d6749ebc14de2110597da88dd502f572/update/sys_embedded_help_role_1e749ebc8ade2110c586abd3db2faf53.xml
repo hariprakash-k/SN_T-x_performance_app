@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_962123_x_perfo_0.employee" name="x_962123_x_perfo_0.employee">52749ebc8ade2110226df25f08b0ce72</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:57</sys_created_on>
+        <sys_id>1e749ebc8ade2110c586abd3db2faf53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>52749ebc8ade2110226df25f08b0ce72</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_embedded_help_role_1e749ebc8ade2110c586abd3db2faf53</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:57</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

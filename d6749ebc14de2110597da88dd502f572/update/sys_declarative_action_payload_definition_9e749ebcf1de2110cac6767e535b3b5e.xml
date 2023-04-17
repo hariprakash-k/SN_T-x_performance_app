@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>performance_review_complete_click</action_key>
+        <applicable_to>035d270073151010c342d5fdbdf6a715</applicable_to>
+        <description/>
+        <label>Performance review evam button</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_9e749ebcf1de2110cac6767e535b3b5e</payload_field_table>
+        <payload_template>{&#13;
+        "table": "{{table}}",&#13;
+        "sysId": "{{sys_id}}",&#13;
+        "url": "{{navigation_url}}",&#13;
+        "status" : "{{state}}"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:17</sys_created_on>
+        <sys_id>9e749ebcf1de2110cac6767e535b3b5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance review evam button</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_9e749ebcf1de2110cac6767e535b3b5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:17</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

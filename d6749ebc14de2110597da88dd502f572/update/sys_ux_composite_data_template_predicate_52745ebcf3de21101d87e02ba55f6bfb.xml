@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sys_properties">sys_scope=e6d7afebdb4824100c835a75dc9619a2^name=x_962123_x_perfo_0.employee_prompt_self_review^EQ<item endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="e6d7afebdb4824100c835a75dc9619a2"/>
+            <item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="x_962123_x_perfo_0.employee_prompt_self_review"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>suffix,name,value</field_list>
+        <name>Perf Review System Property Template Predicate 2</name>
+        <order/>
+        <predicate_bundle display_value="perf review bundle 2">5e745ebc43de2110f7bb6996351efcfa</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+        <sys_id>52745ebcf3de21101d87e02ba55f6bfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Perf Review System Property Template Predicate 2</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_52745ebcf3de21101d87e02ba55f6bfb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+        <table>sys_properties</table>
+        <ux_template display_value="perf review evaluation evam content">56745ebc6dde211006151398688d90fb</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

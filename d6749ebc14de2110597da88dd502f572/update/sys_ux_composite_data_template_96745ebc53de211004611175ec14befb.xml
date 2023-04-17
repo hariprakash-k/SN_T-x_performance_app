@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Performance Review Search Template Results</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:21</sys_created_on>
+        <sys_id>96745ebc53de211004611175ec14befb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Search Template Results</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_96745ebc53de211004611175ec14befb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:21</sys_updated_on>
+        <template>{&#13;
+    "component": "sn-search-result-evam-card",&#13;
+    "staticValues": {&#13;
+        &#13;
+        "imageURL": {&#13;
+            "key": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png"&#13;
+        },&#13;
+                     &#13;
+        &#13;
+        "imageType": {&#13;
+            "translatable": false,&#13;
+            "key": "image"&#13;
+        },&#13;
+&#13;
+        "detailLabelType": {&#13;
+            "translatable": true,&#13;
+            "key": "inline"&#13;
+        },&#13;
+        &#13;
+        "detailLabelOne": {&#13;
+			"translatable": true,&#13;
+			"key": "Requested by:"&#13;
+		}&#13;
+        &#13;
+&#13;
+    },&#13;
+    "mappings": {&#13;
+        "textHeaderLabelOne": "state",&#13;
+        "textHeaderLabelTwo": "number",&#13;
+        "detailValueOne": "manager"&#13;
+&#13;
+    },&#13;
+    "actionMappings": {&#13;
+        "clickAction": "pr_click_action"&#13;
+    }&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

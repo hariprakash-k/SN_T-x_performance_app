@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>UPDATE_REQUESTED_PR</event_name>
+        <interfaces/>
+        <label>Update Requested PR</label>
+        <props/>
+        <required_translations>[]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:21</sys_created_on>
+        <sys_id>56749ebc6cde211033245fd988ae170e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Requested PR</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_event_56749ebc6cde211033245fd988ae170e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:21</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=56749ebc6cde211033245fd988ae170e"/>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Performance Review activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_962123_x_perfo_0_performance_review_activity.fields</name>
+        <read_roles/>
+        <suffix>x_snc_perf_review</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:26</sys_created_on>
+        <sys_id>16749ebca2de2110a82b927e94ec4932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_962123_x_perfo_0_performance_review_activity.fields</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_properties_16749ebca2de2110a82b927e94ec4932</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:26</sys_updated_on>
+        <type>string</type>
+        <value>number,review_period,employee,manager,title,state,work_notes,comments,active,sys_updated_on,manager_feedback</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=16749ebca2de2110a82b927e94ec4932"/>
+</record_update>

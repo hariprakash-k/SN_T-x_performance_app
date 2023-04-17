@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout">
+    <sys_ux_form_action_layout action="INSERT_OR_UPDATE">
+        <action_config display_value="PR Update Requested">1e749ebc83de21106936c4a1e8bcc10e</action_config>
+        <active>true</active>
+        <description/>
+        <name>PR Update Requested</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:54</sys_created_on>
+        <sys_id>12745ebc6ede2110717e4522283de9f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PR Update Requested</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_12745ebc6ede2110717e4522283de9f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:54</sys_updated_on>
+        <table>x_962123_x_perfo_0_performance_review</table>
+    </sys_ux_form_action_layout>
+</record_update>

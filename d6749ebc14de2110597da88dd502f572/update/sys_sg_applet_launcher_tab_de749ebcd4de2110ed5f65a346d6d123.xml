@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher/>
+        <icon display_value="Home Performance Appraisals">1e749ebc83de21103bfb90874693a323</icon>
+        <label>Performance Appraisals</label>
+        <roles/>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:54</sys_created_on>
+        <sys_id>de749ebcd4de2110ed5f65a346d6d123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Appraisals</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_de749ebcd4de2110ed5f65a346d6d123</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:54</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

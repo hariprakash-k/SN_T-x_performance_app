@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>pr_genius_click_action</action_key>
+        <applicable_to>035d270073151010c342d5fdbdf6a715</applicable_to>
+        <description>Action payload definition used by the Genius results click action.</description>
+        <label>Genius Click Action</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_52749ebc22de21106ee705f072e8a25e</payload_field_table>
+        <payload_template>{&#13;
+        "table": "{{columns.table}}",&#13;
+        "sysId": "{{columns.sys_id}}",&#13;
+        "url": "{{columns.url}}",&#13;
+"status":"{{columns.state}}"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:58</sys_created_on>
+        <sys_id>52749ebc22de21106ee705f072e8a25e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Genius Click Action</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_52749ebc22de21106ee705f072e8a25e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:58</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

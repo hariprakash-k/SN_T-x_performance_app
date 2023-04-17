@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="v_search_genius_result">model=7f2b1298b54e6010f877ba1a8373bdba^EQ<item endquery="false" field="model" goto="false" newquery="false" operator="=" or="false" value="7f2b1298b54e6010f877ba1a8373bdba"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.employee,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.manager,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.number,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.review_period,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.evaluation_due,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.state,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.sys_id,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.table,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.evaluation_sent_out</field_list>
+        <name>Performance Review Genius Config</name>
+        <order>100</order>
+        <predicate_bundle display_value="Performance Review AI Portal Search Bundle">92745ebc07de211041e5145d48ed26fc</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:22</sys_created_on>
+        <sys_id>5a745ebc87de21102a962c6ce007eefa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Genius Config</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_5a745ebc87de21102a962c6ce007eefa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:22</sys_updated_on>
+        <table>v_search_genius_result</table>
+        <ux_template display_value="Performance Review Genius Result View">d2745ebc70de2110c89d2d7a19b834fb</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

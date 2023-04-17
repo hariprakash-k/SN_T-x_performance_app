@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:58</sys_created_on>
+        <sys_id>da749ebcdfde2110fc8e86c91f810927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_security_acl display_value="x_962123_x_perfo_0_performance_review.manager_done">1e749ebc3cde2110baca1707bae1d929</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_da749ebcdfde2110fc8e86c91f810927</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:58</sys_updated_on>
+        <sys_user_role display_value="x_962123_x_perfo_0.employee" name="x_962123_x_perfo_0.employee">52749ebc8ade2110226df25f08b0ce72</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

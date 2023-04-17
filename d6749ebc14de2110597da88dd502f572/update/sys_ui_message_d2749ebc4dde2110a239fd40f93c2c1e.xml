@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code/>
+        <commented_message/>
+        <key>review_frequency.6</key>
+        <language>en</language>
+        <message>Set the schedule for the first evaluation of the year, and the system will repeat your schedule again in 6 months.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:15</sys_created_on>
+        <sys_id>d2749ebc4dde2110a239fd40f93c2c1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>review_frequency.6</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ui_message_d2749ebc4dde2110a239fd40f93c2c1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:15</sys_updated_on>
+    </sys_ui_message>
+</record_update>

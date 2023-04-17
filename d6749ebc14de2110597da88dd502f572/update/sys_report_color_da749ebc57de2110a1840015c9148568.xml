@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_color">
+    <sys_report_color action="INSERT_OR_UPDATE">
+        <color>#E3F0FF</color>
+        <display>background-color:#E3F0FF</display>
+        <name>#E3F0FF</name>
+        <sys_class_name>sys_report_color</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:15</sys_created_on>
+        <sys_id>da749ebc57de2110a1840015c9148568</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>#E3F0FF</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_report_color_da749ebc57de2110a1840015c9148568</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:15</sys_updated_on>
+        <themeable_color/>
+    </sys_report_color>
+</record_update>

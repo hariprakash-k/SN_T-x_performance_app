@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_962123_x_perfo_0.Employee Work Performance Results</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Employee Work Performance Results</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+   {&#13;
+      "name":"evaluationRecord",&#13;
+      "label":"Employee Evaluation Work Performance Results",&#13;
+      "description":"Result of Lookup Record Query on Employee Evaluation Record",&#13;
+      "readOnly":false,&#13;
+      "fieldType":"object",&#13;
+      "mandatory":true,&#13;
+      "defaultValue":{&#13;
+      }&#13;
+   }&#13;
+]</props>
+        <required_translations>[{"message":"Employee Evaluation Work Performance Results","comment":""},{"message":"Result of Lookup Record Query on Employee Evaluation Record","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    return [{
+        "data_results": [{
+                "label": gs.getMessage("Works to full potential"),
+                "value": {
+                    "type": "string",
+                    "value": input.evaluationRecord.works_to_full_potential.displayValue
+                }
+            },
+            {
+                "label": gs.getMessage("Work consistency"),
+                "value": {
+                    "type": "string",
+                    "value": input.evaluationRecord.work_consistency.displayValue
+                }
+            },
+            {
+                "label": gs.getMessage("Independent work"),
+                "value": {
+                    "type": "string",
+                    "value": input.evaluationRecord.independent_work.displayValue
+                }
+            },
+			{
+                "label": gs.getMessage("Group Work"),
+                "value": {
+                    "type": "string",
+                    "value": input.evaluationRecord.group_work.displayValue
+                }
+            },
+            {
+                "label": gs.getMessage("Client relations"),
+                "value": {
+                    "type": "string",
+                    "value": input.evaluationRecord.client_relations.displayValue
+                }
+            }					   
+        ]
+    }];
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:56</sys_created_on>
+        <sys_id>5e749ebc3ade211040d06136b5e91129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Work Performance Results</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_5e749ebc3ade211040d06136b5e91129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:56</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=5e749ebc3ade211040d06136b5e91129"/>
+</record_update>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="honesty" table="x_962123_x_perfo_0_performance_review" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>honesty</element>
+            <name>x_962123_x_perfo_0_performance_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>honesty</sys_name>
+            <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+            <sys_update_name>sys_choice_x_962123_x_perfo_0_performance_review_honesty</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>honesty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Below expectations</label>
+            <language>en</language>
+            <name>x_962123_x_perfo_0_performance_review</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e749ebc46de2110bb99d1e782f69065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:04</sys_updated_on>
+            <value>1 - Below expectations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>honesty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Meets expectations</label>
+            <language>en</language>
+            <name>x_962123_x_perfo_0_performance_review</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de749ebc88de211095582fc3efd83a65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:04</sys_updated_on>
+            <value>2 - Meets expectations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>honesty</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Exceeds expectations</label>
+            <language>en</language>
+            <name>x_962123_x_perfo_0_performance_review</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a749ebc3ade21107156444108890a65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:04</sys_updated_on>
+            <value>3 - Exceeds expectations</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

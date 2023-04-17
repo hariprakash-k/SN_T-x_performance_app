@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>926295da2cb06010f87744bfcc0ea399</copied_from>
+        <copied_from_name>Performance Review Send Manager/</copied_from_name>
+        <description>This flow will trigger the PR Admin Self-Eval Submitted w/o Manger  or the PR Manager Self Evaluation Submitted email</description>
+        <internal_name>x_962123_x_perfo_0.perf_review__send_man</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.manager","label":"Trigger➛Performance Review Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_perf_review_performance_review","column_name":"manager"},{"name":"c09c2a86-258e-4ea7-98ef-c1964f7fdbbb.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger➛Performance Review Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_snc_perf_review_performance_review","column_name":"state","choices":[{"missing":false,"image":"","reference":false,"rawLabel":"Draft","label":"Draft","selected":false,"used":false,"value":"draft","parameters":{"name":"x_snc_perf_review_performance_review"}},{"missing":false,"image":"","reference":false,"rawLabel":"Submitted","label":"Submitted","selected":false,"used":false,"value":"submitted","parameters":{"name":"x_snc_perf_review_performance_review"}},{"missing":false,"image":"","reference":false,"rawLabel":"Update Requested","label":"Update Requested","selected":false,"used":false,"value":"update_requested","parameters":{"name":"x_snc_perf_review_performance_review"}},{"missing":false,"image":"","reference":false,"rawLabel":"Manager Review","label":"Manager Review","selected":false,"used":false,"value":"manager_review","parameters":{"name":"x_snc_perf_review_performance_review"}},{"missing":false,"image":"","reference":false,"rawLabel":"Confirmed","label":"Confirmed","selected":false,"used":false,"value":"confirmed","parameters":{"name":"x_snc_perf_review_performance_review"}}]},{"name":"Updated_1.current.manager","label":"Trigger➛Performance Review Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_perf_review_performance_review","column_name":"manager"},{"name":"Updated_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"b4c63406-5aab-4258-bc75-6e93126118a6.__action_status__","label":"2 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4c63406-5aab-4258-bc75-6e93126118a6.__dont_treat_as_error__","label":"2 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bde420d-4d57-41c5-a866-8b7e0641da6f.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bde420d-4d57-41c5-a866-8b7e0641da6f.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>92749ebcf6de2110c616091f0d397f3b</master_snapshot>
+        <name>Perf Review - Send Manager/ADMIN Self Evaluation Submitted email</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>1a749ebc96de2110ddc4f9c81831873b</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d2749ebc4fde21109cd142801049bf3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Perf Review - Send Manager/ADMIN Self Evaluation Submitted email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_hub_flow_d2749ebc4fde21109cd142801049bf3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_962123_x_perfo_0_performance_review">stateVALCHANGES^state=submitted<item endquery="false" field="state" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item display_value="Submitted" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="submitted"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a749ebc96de2110ddc4f9c81831873b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <table>x_962123_x_perfo_0_performance_review</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"5e749ebcbdde211042f809bac01cf03a","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>d2749ebc4fde21109cd142801049bf3b</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>5e749ebcbdde211042f809bac01cf03a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <trigger display_value="">1a749ebc96de2110ddc4f9c81831873b</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>5e749ebcbdde211042f809bac01cf03a</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>da749ebcc4de211031d82d5ba903573a</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d2749ebc4fde21109cd142801049bf3b^sys_idNOT IN5e749ebcbdde211042f809bac01cf03a"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d2749ebc4fde21109cd142801049bf3b^sys_idNOT INde749ebcb5de211020837209cdfdbd3a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">d2749ebc4fde21109cd142801049bf3b</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>de749ebcb5de211020837209cdfdbd3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=de749ebcb5de211020837209cdfdbd3a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>de749ebcb5de211020837209cdfdbd3a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>12749ebcefde2110f678e93788491d3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>x_962123_x_perfo_0_performance_review</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>de749ebcb5de211020837209cdfdbd3a</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>5a749ebc7bde211073cac29e6596ed3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>de749ebcb5de211020837209cdfdbd3a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>9e749ebc9ade2110d1f1e50c19b1973a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>stateVALCHANGES^state=submitted</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=de749ebcb5de211020837209cdfdbd3a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d2749ebc4fde21109cd142801049bf3b^sys_idNOT IN1e749ebc1cde2110d7880b081d35fd3a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d2749ebc4fde21109cd142801049bf3b</id>
+        <name>Perf Review - Send Manager/ADMIN Self Evaluation Submitted email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>1e749ebc1cde2110d7880b081d35fd3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1e749ebc1cde2110d7880b081d35fd3a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d2749ebc4fde21109cd142801049bf3b^sys_idNOT IN12749ebc1bde2110955bfc9b1b752a3a,96749ebc52de2110dc2b38952a8fbc3a,9a749ebcdede21105d382b751c08633a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">d2749ebc4fde21109cd142801049bf3b</model>
+        <model_id>d2749ebc4fde21109cd142801049bf3b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d2749ebc4fde21109cd142801049bf3b</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>12749ebc1bde2110955bfc9b1b752a3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd7ea41b21ec94d105df88cc9077927ce,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">d2749ebc4fde21109cd142801049bf3b</model>
+        <model_id>d2749ebc4fde21109cd142801049bf3b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d2749ebc4fde21109cd142801049bf3b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>96749ebc52de2110dc2b38952a8fbc3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">d2749ebc4fde21109cd142801049bf3b</model>
+        <model_id>d2749ebc4fde21109cd142801049bf3b</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d2749ebc4fde21109cd142801049bf3b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>9a749ebcdede21105d382b751c08633a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d2749ebc4fde21109cd142801049bf3b^sys_idNOT IN16749ebc6dde2110a3830dd137a6ea3a,d6749ebce0de211063f6d126b2fed53a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment>PR Admin Self-Eval Submitted w/o Manger</comment>
+        <display_text/>
+        <flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">d2749ebc4fde21109cd142801049bf3b</flow>
+        <order>2</order>
+        <parent_ui_id>c4f71e1f-f23e-4674-a560-2ce77950487a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>16749ebc6dde2110a3830dd137a6ea3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <ui_id>b4c63406-5aab-4258-bc75-6e93126118a6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=16749ebc6dde2110a3830dd137a6ea3a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>16749ebc6dde2110a3830dd137a6ea3a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>1a749ebc42de2110ea1a3c2df59e4f3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>x_962123_x_perfo_0_performance_review</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>16749ebc6dde2110a3830dd137a6ea3a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>d2749ebc62de21101a4bff1a58e1f23a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>d2749ebca2de21101a4de41664f7f168</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=16749ebc6dde2110a3830dd137a6ea3a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>16749ebc6dde2110a3830dd137a6ea3a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>9e749ebc53de21109501e7850cfa8d39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=16749ebc6dde2110a3830dd137a6ea3a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=16749ebc6dde2110a3830dd137a6ea3a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment>PR Manager Self Evaluation Submitted</comment>
+        <display_text/>
+        <flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">d2749ebc4fde21109cd142801049bf3b</flow>
+        <order>4</order>
+        <parent_ui_id>79377501-40e8-4def-a358-7f9183c1f065</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>d6749ebce0de211063f6d126b2fed53a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <ui_id>2bde420d-4d57-41c5-a866-8b7e0641da6f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d6749ebce0de211063f6d126b2fed53a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d6749ebce0de211063f6d126b2fed53a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>56749ebcf3de21107f0d36f0ef61843a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>92749ebc74de211084acbb28b5027868</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d6749ebce0de211063f6d126b2fed53a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>92749ebcfbde2110b33dacb023c9ec3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>x_962123_x_perfo_0_performance_review</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d6749ebce0de211063f6d126b2fed53a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d6749ebce0de211063f6d126b2fed53a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>52749ebc39de2110c955e2d7a2b07e3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d6749ebce0de211063f6d126b2fed53a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d6749ebce0de211063f6d126b2fed53a"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d2749ebc4fde21109cd142801049bf3b^sys_idNOT IN5a749ebc38de21105737f5f5c2180239,d6749ebc06de2110ac2f3e4748905039"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5e749ebc52de2110e561585b75232539</block>
+        <comment>Manager Exists</comment>
+        <connected_to>c4f71e1f-f23e-4674-a560-2ce77950487a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">d2749ebc4fde21109cd142801049bf3b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>5a749ebc38de21105737f5f5c2180239</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <ui_id>79377501-40e8-4def-a358-7f9183c1f065</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5a749ebc38de21105737f5f5c2180239"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5a749ebc38de21105737f5f5c2180239"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5a749ebc38de21105737f5f5c2180239"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1a749ebc44de211003c10887d93e6939</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">d2749ebc4fde21109cd142801049bf3b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>d6749ebc06de2110ac2f3e4748905039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <ui_id>c4f71e1f-f23e-4674-a560-2ce77950487a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d6749ebc06de2110ac2f3e4748905039"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d6749ebc06de2110ac2f3e4748905039</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>de749ebc95de2110e87b176afe6c0839</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>Manager Does NOT Exists</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d6749ebc06de2110ac2f3e4748905039"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>d6749ebc06de2110ac2f3e4748905039</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>96749ebc3ade2110181af0d90f4ae539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.manager}}= </value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d6749ebc06de2110ac2f3e4748905039"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d6749ebc06de2110ac2f3e4748905039"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d2749ebc4fde21109cd142801049bf3b^sys_idNOT IN1e749ebc41de211034687b2a535c6639,9a749ebc48de2110e59989dc97b80839"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d2749ebc4fde21109cd142801049bf3b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>1e749ebc41de211034687b2a535c6639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c35d5412dd8ee010f8773b70f0ff1937_current_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d2749ebc4fde21109cd142801049bf3b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>9a749ebc48de2110e59989dc97b80839</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c35d5412dd8ee010f8773b70f0ff1937_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d2749ebc4fde21109cd142801049bf3b^sys_idNOT INda749ebcbade21103365a64c2522be39"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"24949c2fec522010f877aca19ec5c881","name":"plan","plan_signature":null}}</plan>
+        <plan_id>d2749ebc4fde21109cd142801049bf3b</plan_id>
+        <snapshot>16749ebc23de2110c4d359b91aab733b</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da749ebcbade21103365a64c2522be39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <trigger display_value="">1a749ebc96de2110ddc4f9c81831873b</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d2749ebc4fde21109cd142801049bf3b"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow will trigger the PR Admin Self-Eval Submitted w/o Manger  or the PR Manager Self Evaluation Submitted email</description>
+        <internal_name>x_962123_x_perfo_0.perf_review__send_man</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.manager","label":"Trigger➛Performance Review Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_perf_review_performance_review","column_name":"manager"},{"name":"c09c2a86-258e-4ea7-98ef-c1964f7fdbbb.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.state","label":"Trigger➛Performance Review Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_snc_perf_review_performance_review","column_name":"state","choices":[{"missing":false,"image":"","reference":false,"rawLabel":"Draft","label":"Draft","selected":false,"used":false,"value":"draft","parameters":{"name":"x_snc_perf_review_performance_review"}},{"missing":false,"image":"","reference":false,"rawLabel":"Submitted","label":"Submitted","selected":false,"used":false,"value":"submitted","parameters":{"name":"x_snc_perf_review_performance_review"}},{"missing":false,"image":"","reference":false,"rawLabel":"Update Requested","label":"Update Requested","selected":false,"used":false,"value":"update_requested","parameters":{"name":"x_snc_perf_review_performance_review"}},{"missing":false,"image":"","reference":false,"rawLabel":"Manager Review","label":"Manager Review","selected":false,"used":false,"value":"manager_review","parameters":{"name":"x_snc_perf_review_performance_review"}},{"missing":false,"image":"","reference":false,"rawLabel":"Confirmed","label":"Confirmed","selected":false,"used":false,"value":"confirmed","parameters":{"name":"x_snc_perf_review_performance_review"}}]},{"name":"Updated_1.current.manager","label":"Trigger➛Performance Review Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_perf_review_performance_review","column_name":"manager"},{"name":"Updated_1.current","label":"Trigger➛Performance Review Record","reference":"x_snc_perf_review_performance_review","reference_display":"Performance Review","type":"reference","base_type":"reference","attributes":{}},{"name":"b4c63406-5aab-4258-bc75-6e93126118a6.__action_status__","label":"2 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4c63406-5aab-4258-bc75-6e93126118a6.__dont_treat_as_error__","label":"2 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bde420d-4d57-41c5-a866-8b7e0641da6f.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2bde420d-4d57-41c5-a866-8b7e0641da6f.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Perf Review - Send Manager/ADMIN Self Evaluation Submitted email</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">d2749ebc4fde21109cd142801049bf3b</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>92749ebcf6de2110c616091f0d397f3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=92749ebcf6de2110c616091f0d397f3b^sys_idNOT IN56749ebcdbde211091154b544425ce39"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">92749ebcf6de2110c616091f0d397f3b</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>56749ebcdbde211091154b544425ce39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=56749ebcdbde211091154b544425ce39"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>56749ebcdbde211091154b544425ce39</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>16749ebc02de211085ce42f781a6ac39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>56749ebcdbde211091154b544425ce39</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>52749ebc1cde21102871e7750054c439</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>x_962123_x_perfo_0_performance_review</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>56749ebcdbde211091154b544425ce39</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>d2749ebca0de2110a8373d45b9228639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <value>stateVALCHANGES^state=submitted</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=56749ebcdbde211091154b544425ce39"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=92749ebcf6de2110c616091f0d397f3b^sys_idNOT INde749ebca5de2110aa2433525305ba38"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>92749ebcf6de2110c616091f0d397f3b</id>
+        <name>Perf Review - Send Manager/ADMIN Self Evaluation Submitted email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>de749ebca5de2110aa2433525305ba38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=de749ebca5de2110aa2433525305ba38"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=92749ebcf6de2110c616091f0d397f3b^sys_idNOT IN12749ebcc9de21103ff699e967166939,1e749ebc5cde2110a3427d26230d4938,92749ebcffde2110cff5cdc93b93b039"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">92749ebcf6de2110c616091f0d397f3b</model>
+        <model_id>92749ebcf6de2110c616091f0d397f3b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_92749ebcf6de2110c616091f0d397f3b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:50</sys_created_on>
+        <sys_id>12749ebcc9de21103ff699e967166939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd7ea41b21ec94d105df88cc9077927ce,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">92749ebcf6de2110c616091f0d397f3b</model>
+        <model_id>92749ebcf6de2110c616091f0d397f3b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_92749ebcf6de2110c616091f0d397f3b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>1e749ebc5cde2110a3427d26230d4938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">92749ebcf6de2110c616091f0d397f3b</model>
+        <model_id>92749ebcf6de2110c616091f0d397f3b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_92749ebcf6de2110c616091f0d397f3b</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>92749ebcffde2110cff5cdc93b93b039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=92749ebcf6de2110c616091f0d397f3b^sys_idNOT IN5a749ebcc7de21104839b4d688428238,d6749ebc27de2110fe8022f47f402338"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment>PR Manager Self Evaluation Submitted</comment>
+        <display_text/>
+        <flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">92749ebcf6de2110c616091f0d397f3b</flow>
+        <order>4</order>
+        <parent_ui_id>79377501-40e8-4def-a358-7f9183c1f065</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>5a749ebcc7de21104839b4d688428238</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <ui_id>2bde420d-4d57-41c5-a866-8b7e0641da6f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a749ebcc7de21104839b4d688428238"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a749ebcc7de21104839b4d688428238</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>5e749ebcd2de21109e2b2b7a15d18d38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <value>x_962123_x_perfo_0_performance_review</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a749ebcc7de21104839b4d688428238</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>9e749ebce0de211060017f646da1e138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <value>92749ebc74de211084acbb28b5027868</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5a749ebcc7de21104839b4d688428238"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5a749ebcc7de21104839b4d688428238</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>da749ebc26de211046e4bfacac1e5638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5a749ebcc7de21104839b4d688428238"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5a749ebcc7de21104839b4d688428238"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <comment>PR Admin Self-Eval Submitted w/o Manger</comment>
+        <display_text/>
+        <flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">92749ebcf6de2110c616091f0d397f3b</flow>
+        <order>2</order>
+        <parent_ui_id>c4f71e1f-f23e-4674-a560-2ce77950487a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>d6749ebc27de2110fe8022f47f402338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <ui_id>b4c63406-5aab-4258-bc75-6e93126118a6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d6749ebc27de2110fe8022f47f402338"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d6749ebc27de2110fe8022f47f402338</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>1a749ebcf3de211036a87dbf487ce538</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <value>x_962123_x_perfo_0_performance_review</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d6749ebc27de2110fe8022f47f402338</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>9a749ebc9bde21107d0f759b1891f238</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <value>d2749ebca2de21101a4de41664f7f168</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d6749ebc27de2110fe8022f47f402338"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d6749ebc27de2110fe8022f47f402338</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>96749ebc61de21107a545f5bd7496d38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d6749ebc27de2110fe8022f47f402338"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d6749ebc27de2110fe8022f47f402338"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=92749ebcf6de2110c616091f0d397f3b^sys_idNOT IN12749ebc4fde2110f358bff93cfbfa38,d2749ebc9fde211038860aed1d7f5a38"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5e749ebc52de2110e561585b75232539</block>
+        <comment>Manager Exists</comment>
+        <connected_to>c4f71e1f-f23e-4674-a560-2ce77950487a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">92749ebcf6de2110c616091f0d397f3b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>12749ebc4fde2110f358bff93cfbfa38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <ui_id>79377501-40e8-4def-a358-7f9183c1f065</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=12749ebc4fde2110f358bff93cfbfa38"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=12749ebc4fde2110f358bff93cfbfa38"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=12749ebc4fde2110f358bff93cfbfa38"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1a749ebc44de211003c10887d93e6939</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Perf Review - Send Manager/ADMIN Self Evaluation Submitted email">92749ebcf6de2110c616091f0d397f3b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>d2749ebc9fde211038860aed1d7f5a38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <ui_id>c4f71e1f-f23e-4674-a560-2ce77950487a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d2749ebc9fde211038860aed1d7f5a38"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d2749ebc9fde211038860aed1d7f5a38</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>16749ebc3ade21108a7209d3c615a838</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <value>Manager Does NOT Exists</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d2749ebc9fde211038860aed1d7f5a38"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>d2749ebc9fde211038860aed1d7f5a38</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>56749ebcb9de2110c8daf33032b84d38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.manager}}= </value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d2749ebc9fde211038860aed1d7f5a38"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d2749ebc9fde211038860aed1d7f5a38"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_92749ebcf6de2110c616091f0d397f3b^sys_idNOT IN5e749ebc53de21105c2f910cf3e04a37"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_92749ebcf6de2110c616091f0d397f3b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>5e749ebc53de21105c2f910cf3e04a37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a0c02816dd8ee010f8773b70f0ff1900_table_name_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_92749ebcf6de2110c616091f0d397f3b"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>d2749ebc4fde21109cd142801049bf3b</sys_id>
+        <latest_snapshot>92749ebcf6de2110c616091f0d397f3b</latest_snapshot>
+        <compiler_build>glide-trackapptemplates-12-11-2020_01-27-2022_0008.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

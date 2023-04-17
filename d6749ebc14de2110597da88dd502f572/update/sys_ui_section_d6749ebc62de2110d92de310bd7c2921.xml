@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notification settings" section_id="d6749ebc62de2110d92de310bd7c2921" sys_domain="global" table="x_962123_x_perfo_0_performance_review" version="3" view="settings_x_962123_x_perfo_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>56749ebc1ede2110903a66313ad21410</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>review_process_schedule</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>12749ebc80de211051f0930b4f2a0511</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>52749ebcecde211010547747bcea1211</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>da749ebceade2110288ab2b650fc6a10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>note</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>5e749ebc47de21101104665af1370e10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>d6749ebcd3de2110737cc88a026d4210</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_prompt_self_review</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>de749ebc79de2110e9bda27e32f2a310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>evaluation_due</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>12749ebc2cde21109082481ca1233310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notify_if_manager_isn_t_specified</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>d2749ebcaade21105fda54c41ef9a410</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>5e749ebc83de211059cd5be4eed9370f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notify_reminder</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>52749ebc0ade2110167786a2181b3110</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>9e749ebcd4de21102cabea77d2e2460f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title_empty_notify</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>da749ebcccde2110c604d9e28e330f0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_id>16749ebc8bde21107054f928dadfa110</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="1e749ebcdede2110e32dfa02cfcb6921">d6749ebc62de2110d92de310bd7c2921</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notification settings</caption>
+            <header>false</header>
+            <name>x_962123_x_perfo_0_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6749ebc62de2110d92de310bd7c2921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_962123_x_perfo_0_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+            <sys_update_name>sys_ui_section_d6749ebc62de2110d92de310bd7c2921</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Edit Settings (x_962123_x_perfo_0)" name="settings_x_962123_x_perfo_0">1e749ebcdede2110e32dfa02cfcb6921</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_assignment_action_config">
+    <sys_ux_m2m_action_assignment_action_config action="INSERT_OR_UPDATE">
+        <action_assignment display_value="update_requested_pr">56749ebc2fde2110ade964e1f6d5ab5e</action_assignment>
+        <action_configuration display_value="Performance Review Action Config">de749ebc0ede2110bd92aebf5318ca0e</action_configuration>
+        <sys_class_name>sys_ux_m2m_action_assignment_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:12</sys_created_on>
+        <sys_id>92745ebccbde2110561e30a5c0eadff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_assignment_action_config_92745ebccbde2110561e30a5c0eadff4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:12</sys_updated_on>
+    </sys_ux_m2m_action_assignment_action_config>
+</record_update>

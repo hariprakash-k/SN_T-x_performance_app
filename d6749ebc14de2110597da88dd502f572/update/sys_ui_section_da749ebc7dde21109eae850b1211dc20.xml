@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Self Review" section_id="da749ebc7dde21109eae850b1211dc20" sys_domain="global" table="x_962123_x_perfo_0_performance_review" version="3" view="workspace">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>5e749ebc0cde2110df2f477957408812</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <text>&lt;span style="font-size: 16pt;"&gt;&lt;strong&gt;Looking back&lt;/strong&gt;&lt;/span&gt;</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>16749ebc9ade21109469e0bc80e4fa12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <text>&lt;span style="font-size: 16pt;"&gt;&lt;strong&gt;Your role&lt;/strong&gt;&lt;/span&gt;</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>d2749ebcfade211035e6093914c65411</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <text>&lt;p&gt;&lt;span style="font-size: 16pt;"&gt;&lt;strong&gt;Looking forward&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>5e749ebc0cde2110df2f477957408812</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>1e749ebca6de21108b49af55ff4aaf12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>projects_current</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>d6749ebc53de2110d20e7b5e911b0c12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_proud</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>52749ebc9ade2110272e0452fd7d4f12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>done_differently</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>9a749ebcd8de211066b19d4a117dc612</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>16749ebc9ade21109469e0bc80e4fa12</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>56749ebcc2de211032d6bbd576993212</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>excel_at_job</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>da749ebc07de21101e1b33853b406212</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_done</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>96749ebc8dde211074324a2c35154712</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>areas_more_feedback</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>1a749ebc72de21103559786b28c34012</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>d2749ebcfade211035e6093914c65411</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>56749ebc3cde2110ee104fc9c0130911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>upcoming_projects</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>1e749ebc6dde211062249e312919b411</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>future_goals</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_id>16749ebc89de21100121a40a1f5e2911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Self Review" display_value="Self Review" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="0ba0e22ea5340110c0a0e1db2cdc9511">da749ebc7dde21109eae850b1211dc20</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Self Review</caption>
+            <header>false</header>
+            <name>x_962123_x_perfo_0_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da749ebc7dde21109eae850b1211dc20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_962123_x_perfo_0_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+            <sys_update_name>sys_ui_section_da749ebc7dde21109eae850b1211dc20</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">0ba0e22ea5340110c0a0e1db2cdc9511</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

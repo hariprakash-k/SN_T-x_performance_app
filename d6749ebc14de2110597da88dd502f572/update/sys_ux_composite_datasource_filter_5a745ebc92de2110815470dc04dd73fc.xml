@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource_filter">
+    <sys_ux_composite_datasource_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_condition>sys_scope=e6d7afebdb4824100c835a75dc9619</base_condition>
+        <condition table="sys_properties">nameSTARTSWITHx_962123_x_perfo_0.employee_prompt_self_review^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="x_962123_x_perfo_0.employee_prompt_self_review"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <datasource display_value="Per Review Sys Property Data Source">de745ebc5ede21100f3ddb333ebb93fc</datasource>
+        <datasource_table>sys_properties</datasource_table>
+        <filter display_value="Performance review system property data filters">da745ebc2cde21109653cda760e700fc</filter>
+        <name>Evaluation Sent out</name>
+        <sys_class_name>sys_ux_composite_datasource_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:55</sys_created_on>
+        <sys_id>5a745ebc92de2110815470dc04dd73fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Evaluation Sent out</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_filter_5a745ebc92de2110815470dc04dd73fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:55</sys_updated_on>
+    </sys_ux_composite_datasource_filter>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_layout">
+    <sys_ux_applicability_m2m_layout action="INSERT_OR_UPDATE">
+        <action_layout display_value="Evaluation Draft">96749ebc85de211001f469373988ef0c</action_layout>
+        <active>true</active>
+        <applicability display_value="Performance Review Employees">16749ebcfede2110fc05be66ac43ea0c</applicability>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:51</sys_created_on>
+        <sys_id>d6749ebc9ade211061cc2ef950d0920c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_layout_d6749ebc9ade211061cc2ef950d0920c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:51</sys_updated_on>
+    </sys_ux_applicability_m2m_layout>
+</record_update>

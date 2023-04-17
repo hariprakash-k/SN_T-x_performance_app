@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>COMPLETE_BUTTON_CLICK</event_name>
+        <interfaces/>
+        <label>complete button click</label>
+        <props>[{"name":"sysId","fieldType":"","label":"Record Id","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"status","fieldType":"","label":"Status","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[{"message":"Record Id","comment":""},{"message":"Status","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:53</sys_created_on>
+        <sys_id>9a745ebc73de21108e8b122ccd1aebf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>complete button click</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_event_9a745ebc73de21108e8b122ccd1aebf7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:53</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=9a745ebc73de21108e8b122ccd1aebf7"/>
+</record_update>

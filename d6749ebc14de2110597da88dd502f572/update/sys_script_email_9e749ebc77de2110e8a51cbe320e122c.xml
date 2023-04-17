@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_962123_x_perfo_0.pr_admin_eval</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+	
+	var sysID = current.sys_id;
+	var instance = gs.getProperty('glide.servlet.uri');
+	var link = instance + 'x/962123/x_962123_x_perfo_0-pr/workspace/record/x_962123_x_perfo_0_performance_review/' + sysID + '/';
+    template.print('<font face="helvetica">');
+
+    var color = 'color: #ffffff;';
+    var fontSize = 'font-size: 12px;';
+    var textDecoration = 'text-decoration: none; border-radius: 3px;';
+
+    template.print('<a href="' + link + '"');
+	template.print('style="' + color + fontSize + textDecoration);
+    template.print('">');
+    template.print(gs.getMessage('CONTINUE EVALUATION'));
+    template.print('</a>');
+
+    template.print('</font>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:14</sys_created_on>
+        <sys_id>9e749ebc77de2110e8a51cbe320e122c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_962123_x_perfo_0.pr_admin_eval</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_script_email_9e749ebc77de2110e8a51cbe320e122c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:14</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data">
+    <sys_ux_composite_data action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_filter_label>Default</base_filter_label>
+        <name>Performance Review</name>
+        <query_parameters/>
+        <required_roles/>
+        <sort_order>descend</sort_order>
+        <sys_class_name>sys_ux_composite_data</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:18</sys_created_on>
+        <sys_id>16745ebcdbde21103cf3573a953deafd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_composite_data_16745ebcdbde21103cf3573a953deafd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:18</sys_updated_on>
+    </sys_ux_composite_data>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="PR Employee Portal">1a749ebc33de211077c167bd4fe28b71</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Landing page">3bea99060f921010036a83fa68767e46</macroponent>
+        <macroponent_config/>
+        <name>Employee Home default</name>
+        <order>0</order>
+        <parent_macroponent display_value="">9533bf435b130010b913cbd59b81c7c6</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type/>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9a745ebcf2de2110c14a86bc5291f8ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Home default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_screen_9a745ebcf2de2110c14a86bc5291f8ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:25</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=9a745ebcf2de2110c14a86bc5291f8ef"/>
+</record_update>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Work Performance" section_id="52749ebcd1de2110090831422c798c22" sys_domain="global" table="x_962123_x_perfo_0_performance_review" version="3" view="manager_review_x_962123_x_perfo_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>works_to_full_potential</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:21</sys_created_on>
+            <sys_id>56749ebc23de211042d7111bd7a85216</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Performance" display_value="Work Performance" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="56749ebc87de211058b0270287f3c022">52749ebcd1de2110090831422c798c22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>independent_work</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:21</sys_created_on>
+            <sys_id>92749ebcd7de211076754783e9a2bc16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Performance" display_value="Work Performance" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="56749ebc87de211058b0270287f3c022">52749ebcd1de2110090831422c798c22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client_relations</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:21</sys_created_on>
+            <sys_id>5a749ebc71de2110b4bb8912d1bde016</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Performance" display_value="Work Performance" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="56749ebc87de211058b0270287f3c022">52749ebcd1de2110090831422c798c22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:21</sys_created_on>
+            <sys_id>52749ebc93de211026e5d931e6252f16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Performance" display_value="Work Performance" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="56749ebc87de211058b0270287f3c022">52749ebcd1de2110090831422c798c22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_consistency</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:21</sys_created_on>
+            <sys_id>da749ebc55de2110b612ee9372160616</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Performance" display_value="Work Performance" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="56749ebc87de211058b0270287f3c022">52749ebcd1de2110090831422c798c22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>group_work</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:21</sys_created_on>
+            <sys_id>16749ebcd8de2110917ba112be964916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Performance" display_value="Work Performance" name="x_962123_x_perfo_0_performance_review" sys_domain="global" view="56749ebc87de211058b0270287f3c022">52749ebcd1de2110090831422c798c22</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Work Performance</caption>
+            <header>false</header>
+            <name>x_962123_x_perfo_0_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-17 03:11:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52749ebcd1de2110090831422c798c22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_962123_x_perfo_0_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+            <sys_update_name>sys_ui_section_52749ebcd1de2110090831422c798c22</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Manager Review (x_962123_x_perfo_0)" name="manager_review_x_962123_x_perfo_0">56749ebc87de211058b0270287f3c022</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

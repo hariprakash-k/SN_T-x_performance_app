@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_962123_x_perfo_0.pr_eval_button</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+	
+    var sysID = current.sys_id;
+	var instance = gs.getProperty('glide.servlet.uri');
+	var link = instance + 'x/962123/x_962123_x_perfo_0-pr/workspace/record/x_962123_x_perfo_0_performance_review/' + sysID;
+
+    var backgroundColor = 'background-color: #278efc;';
+    var color = 'color: #ffffff;';
+    var fontSize = 'font-size: 12px;';
+    var fontFamily = 'font-family: Helvetica, Arial, sans-serif;';
+    var textDecoration = 'text-decoration: none; border-radius: 3px;';
+    var webKitBorder = '-webkit-border-radius: 10px;';
+    var mozBorder = '-moz-border-radius: 10px;';
+    var display = 'display: inline-block;';
+    var padding = 'padding: 15px 100px;';
+
+	template.print('<table style="background-color: #278efc; height: 50px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;" role="presentation" border="0" width="234" cellspacing="0" cellpadding="0">');
+	template.print('<tbody><tr>');
+	template.print('<td style="border-radius: 16px; width: 230px; text-align: center; height: 45px;"><span style="font-family: tahoma, arial, helvetica, sans-serif;"><a class="button-a button-a-primary" style="font-size: 11pt; line-height: 15px; text-decoration: none; border-radius: 16px;">');
+    template.print('<a href="' + link + '"');
+    template.print('style="' + backgroundColor + color + fontSize + fontFamily + textDecoration + webKitBorder + mozBorder + display);
+    template.print('">');
+    template.print(gs.getMessage('VIEW EVALUATION'));
+    template.print('</a>');
+	template.print('</td></tr></tbody></table>');
+    template.print('<br><br>');
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:54</sys_created_on>
+        <sys_id>16749ebc79de21104b2bea033839752d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_962123_x_perfo_0.pr_eval_button</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_script_email_16749ebc79de21104b2bea033839752d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:54</sys_updated_on>
+    </sys_script_email>
+</record_update>

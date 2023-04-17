@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_chart_color_schemes">
+    <pa_chart_color_schemes action="INSERT_OR_UPDATE">
+        <color_1 display_value="#E1DCD6">9e749ebc79de2110581ee682869ec268</color_1>
+        <color_10/>
+        <color_11/>
+        <color_12/>
+        <color_13/>
+        <color_14/>
+        <color_15/>
+        <color_16/>
+        <color_17/>
+        <color_18/>
+        <color_19/>
+        <color_2 display_value="#F04C5C">5a749ebc65de21104990a38778b1cb68</color_2>
+        <color_20/>
+        <color_21/>
+        <color_22/>
+        <color_23/>
+        <color_24/>
+        <color_25/>
+        <color_26/>
+        <color_27/>
+        <color_28/>
+        <color_29/>
+        <color_3 display_value="#E3F0FF">da749ebc57de2110a1840015c9148568</color_3>
+        <color_30/>
+        <color_31/>
+        <color_32/>
+        <color_4 display_value="#7BA4DB">96749ebc45de2110899ced2f5f3a5e69</color_4>
+        <color_5 display_value="#266FEB">1e749ebc57de21103dd78fa1a7a46068</color_5>
+        <color_6/>
+        <color_7/>
+        <color_8/>
+        <color_9/>
+        <description/>
+        <name>Performance Review Color scheme</name>
+        <sys_class_name>pa_chart_color_schemes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>96749ebc7fde2110d88141b36405d668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Color scheme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>pa_chart_color_schemes_96749ebc7fde2110d88141b36405d668</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+    </pa_chart_color_schemes>
+    <sys_translated_text action="delete_multiple" query="documentkey=96749ebc7fde2110d88141b36405d668"/>
+</record_update>

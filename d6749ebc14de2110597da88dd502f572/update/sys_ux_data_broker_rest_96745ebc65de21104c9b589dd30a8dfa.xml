@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_rest">
+    <sys_ux_data_broker_rest action="INSERT_OR_UPDATE">
+        <api_name>x_962123_x_perfo_0.Pull Performance Review Properties</api_name>
+        <api_url>/api/x_962123_x_perfo_0/prop_mgmt?property_name={{prop_name}}</api_url>
+        <description/>
+        <http_method>GET</http_method>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Pull Performance Review Properties</name>
+        <output_schema/>
+        <parameters>[&#13;
+ {&#13;
+   "name": "prop_name",&#13;
+    "value": "{{prop_name}}"&#13;
+ }&#13;
+]</parameters>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "prop_name",&#13;
+    "label": "Property Name",&#13;
+    "description": "The name of a single property to pull. If 'none', all properties in the application will be pulled.",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": false,&#13;
+    "defaultValue": "none"&#13;
+  }&#13;
+]</props>
+        <request_body/>
+        <required_translations>[{"message":"Property Name","comment":""},{"message":"The name of a single property to pull. If 'none', all properties in the application will be pulled.","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_data_broker_rest</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:54</sys_created_on>
+        <sys_id>96745ebc65de21104c9b589dd30a8dfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pull Performance Review Properties</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_data_broker_rest_96745ebc65de21104c9b589dd30a8dfa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:54</sys_updated_on>
+    </sys_ux_data_broker_rest>
+    <sys_translated_text action="delete_multiple" query="documentkey=96745ebc65de21104c9b589dd30a8dfa"/>
+</record_update>

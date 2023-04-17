@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Sys ID of the record used to store and navigate various settings</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_962123_x_perfo_0.settings_record</name>
+        <read_roles/>
+        <suffix>settings_record</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:20</sys_created_on>
+        <sys_id>d2749ebc4ade21101c5addb4ea58f732</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_962123_x_perfo_0.settings_record</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_properties_d2749ebc4ade21101c5addb4ea58f732</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:55</sys_updated_on>
+        <type>string</type>
+        <value>87b49630971261102e77b4b3f153afc5</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2749ebc4ade21101c5addb4ea58f732"/>
+</record_update>

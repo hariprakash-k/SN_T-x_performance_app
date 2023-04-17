@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_962123_x_perfo_0.PRUtils_AJAX</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Support Server Side Calls from Settings Form</description>
+        <name>PRUtils_AJAX</name>
+        <script><![CDATA[var PRUtils_AJAX = Class.create();
+PRUtils_AJAX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+   
+    getEndDate: function() {
+        var startDate = this.getParameter('sysparm_start_date');
+        var frequency = parseInt(this.getParameter('sysparm_frequency'));
+		
+        var gdt = new GlideDateTime(startDate);
+        gdt.addMonthsUTC(frequency);
+        gdt.addDaysUTC(-1);
+		
+        return gdt.getDate();
+    },
+    type: 'PRUtils_AJAX'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:03</sys_created_on>
+        <sys_id>1e749ebc38de2110cb247f7b432b002c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRUtils_AJAX</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_script_include_1e749ebc38de2110cb247f7b432b002c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

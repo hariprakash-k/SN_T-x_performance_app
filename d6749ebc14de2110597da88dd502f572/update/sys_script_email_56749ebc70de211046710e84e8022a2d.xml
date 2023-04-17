@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_962123_x_perfo_0.pr_co_name</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+    var coName = gs.getProperty('x_962123_x_perfo_0.default_company_name');
+	template.print('<div style="font-family: arial, helvetica, sans serif; font-size: 12pt; color: #ffffff;"><strong>');
+	template.print(coName);
+	template.print('</div></strong>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:12</sys_created_on>
+        <sys_id>56749ebc70de211046710e84e8022a2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_962123_x_perfo_0.pr_co_name</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_script_email_56749ebc70de211046710e84e8022a2d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:12</sys_updated_on>
+    </sys_script_email>
+</record_update>

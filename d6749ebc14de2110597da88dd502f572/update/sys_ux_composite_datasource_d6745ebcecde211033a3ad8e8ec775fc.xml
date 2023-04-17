@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource">
+    <sys_ux_composite_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <encoded_query_script/>
+        <name>Performance Reviews</name>
+        <sort_by>sys_created_on</sort_by>
+        <sys_class_name>sys_ux_composite_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:26</sys_created_on>
+        <sys_id>d6745ebcecde211033a3ad8e8ec775fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Reviews</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_d6745ebcecde211033a3ad8e8ec775fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:26</sys_updated_on>
+        <table>x_962123_x_perfo_0_performance_review</table>
+    </sys_ux_composite_datasource>
+</record_update>

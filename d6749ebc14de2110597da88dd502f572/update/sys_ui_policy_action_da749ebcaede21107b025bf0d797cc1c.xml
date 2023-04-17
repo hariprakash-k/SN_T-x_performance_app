@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>state</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:24</sys_created_on>
+        <sys_id>da749ebcaede21107b025bf0d797cc1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ui_policy_action_da749ebcaede21107b025bf0d797cc1c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:24</sys_updated_on>
+        <table>x_962123_x_perfo_0_performance_review</table>
+        <ui_policy display_value="hide status on MG review view">d6749ebc73de21108856e606e971f01e</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

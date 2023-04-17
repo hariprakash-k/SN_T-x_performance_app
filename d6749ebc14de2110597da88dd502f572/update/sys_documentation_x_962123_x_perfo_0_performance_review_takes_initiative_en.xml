@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="takes_initiative" label="Takes initiative" language="en" table="x_962123_x_perfo_0_performance_review">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>takes_initiative</element>
+            <help/>
+            <hint/>
+            <label>Takes initiative</label>
+            <language>en</language>
+            <name>x_962123_x_perfo_0_performance_review</name>
+            <plural>Takes initiatives</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Takes initiative</sys_name>
+            <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+            <sys_update_name>sys_documentation_x_962123_x_perfo_0_performance_review_takes_initiative_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-17 03:11:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

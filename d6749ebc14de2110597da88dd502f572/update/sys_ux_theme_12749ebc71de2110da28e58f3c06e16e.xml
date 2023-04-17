@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Performance Review Portal Theme</name>
+        <parent/>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>12749ebc71de2110da28e58f3c06e16e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Portal Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_theme_12749ebc71de2110da28e58f3c06e16e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:26</sys_updated_on>
+        <theme>{&#13;
+    "--now-font-family": "Roboto, sans-serif",&#13;
+    "--now-display-type--primary--font-family": "Cabin, sans-serif",&#13;
+    "--now-display-type--secondary--font-family": "Cabin, sans-serif",&#13;
+    &#13;
+    "--now-color--perfreview--background-color":"225, 220, 214",&#13;
+    "canvas-header-container--background-color": "41,62,64",&#13;
+    "canvas-user-menu-trigger--color": "255,255,255",&#13;
+    "--now-color--primary-0": "222,233,252",&#13;
+    "--now-color--primary-1": "38,111,235",&#13;
+    "--now-color--primary-2": "29,84,177",&#13;
+    "--now-color--primary-3": "19,56,118",&#13;
+    "--now-color--secondary-0": "222,233,252",&#13;
+    "--now-color--secondary-1": "38,111,235",&#13;
+    "--now-color--secondary-2": "29,84,177",&#13;
+    "--now-color--secondary-3": "19,56,118",&#13;
+    "--now-color_focus-ring": "var(--now-color--primary-2)",&#13;
+    &#13;
+    "--now-button--text-transform": "uppercase",&#13;
+    "--now-button--width-scale": "1.5",&#13;
+    "--now-button--height-scale": "1.25", &#13;
+    "--now-button--border-width": "0",   &#13;
+    "--now-button--font-weight":"600",&#13;
+    "--now-button--border-radius": "8px",&#13;
+    "--now-button--secondary--color": "0,0,0",&#13;
+    "--now-button--secondary--background-color": "227,240,255",&#13;
+    "--now-button--secondary--background-color--hover": "171,180,192",&#13;
+    "--now-button--secondary--background-color--active": "114,120,128",&#13;
+    &#13;
+    "--now-card--border-radius": "8px",&#13;
+    &#13;
+    "--now-tabs--font-weight--selected": "600",&#13;
+	"--now-tabs--text-transform": "uppercase",&#13;
+	"--now-tabs--text-transform--selected": "uppercase",&#13;
+	"--now-tabs--color": "0,0,0", &#13;
+	"--now-tabs--color--hover": "var(--now-color--primary-1)", &#13;
+	"--now-tabs--color--selected": "0,0,0",&#13;
+    "--now-tabs--border-width": "0",&#13;
+	"--now-tabs--background-color": "217,219,217", &#13;
+	"--now-tabs--background-color-alpha": "1", &#13;
+	"--now-tabs--background-color--hover": "235,235,235",&#13;
+	"--now-tabs--background-color--selected": "255,255,255",&#13;
+	"--now-tabs--border-radius": "8px",&#13;
+    "--now-tabs_divider--color": "255,255,255",&#13;
+    &#13;
+    "--now-form-field--border-width": "1px",&#13;
+    "--now-form-field--border-radius": "4px",&#13;
+    "--now-form-field--border-color--hover": "var(--now-color--primary-1)",&#13;
+    "--now-form-field--border-color--focus": "var(--now-color--primary-2)",&#13;
+    "--now-form-field--border-block-end-width": "0px",&#13;
+    &#13;
+    "--now-line-height-crop--before": "-0.2125em",&#13;
+    "--now-line-height-crop--after": "-0.275em",&#13;
+    "--now-color_grouped--brown-0": "225, 220, 214",&#13;
+    "--now-color--neutral-0":"255, 255, 255",&#13;
+	"--now-avatar--background-color":"246 247 247",&#13;
+    "--now-static-space--lg":"1rem"&#13;
+      &#13;
+}</theme>
+    </sys_ux_theme>
+</record_update>

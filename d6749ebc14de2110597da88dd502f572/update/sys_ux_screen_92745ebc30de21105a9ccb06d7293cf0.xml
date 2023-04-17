@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Performance Review">9e749ebc76de211050300e8140e02671</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Manager Evaluation">de745ebc58de2110f032decfc20282f2</macroponent>
+        <macroponent_config>{
+  "parentGlideForm" : {
+    "type" : "DATA_OUTPUT_BINDING",
+    "binding" : {
+      "address" : [ "gform", "nowRecordFormBlob" ]
+    }
+  },
+  "parentSysId" : {
+    "type" : "CONTEXT_BINDING",
+    "binding" : {
+      "address" : [ "sysId" ],
+      "category" : "props"
+    }
+  },
+  "parentTable" : {
+    "type" : "CONTEXT_BINDING",
+    "binding" : {
+      "address" : [ "table" ],
+      "category" : "props"
+    }
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Manager Evaluation</name>
+        <order>100</order>
+        <parent_macroponent display_value="Record">9e749ebc10de21109fa31c2831d4b30e</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Manager Evaluation">16749ebc29de21109a1d182e8f91c302</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>92745ebc30de21105a9ccb06d7293cf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Evaluation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_screen_92745ebc30de21105a9ccb06d7293cf0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:20</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=92745ebc30de21105a9ccb06d7293cf0"/>
+</record_update>

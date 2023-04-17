@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Performance Review Default Search Profile</description>
+        <genius_result_assembly/>
+        <label>Performance Review Default Search Profile</label>
+        <name>x_962123_x_perfo_0_performance_review_de</name>
+        <publish_id>3a5cac65-15fa-41c0-898d-6fc1655f0c40</publish_id>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:04</sys_created_on>
+        <sys_id>56749ebc9ede21106d87bde6278af171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Default Search Profile</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>ais_search_profile_56749ebc9ede21106d87bde6278af171</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:04</sys_updated_on>
+    </ais_search_profile>
+</record_update>

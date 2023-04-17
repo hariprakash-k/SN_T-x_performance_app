@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="PR Employee Portal">1a749ebc33de211077c167bd4fe28b71</app_config>
+        <description/>
+        <extension_point/>
+        <fields>sysId,status</fields>
+        <icon/>
+        <name>Employee Evaluation</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>emp-evaluation</route_type>
+        <screen_type display_value="Employee Evaluation">de749ebcb9de2110571a1d19c9f70406</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:28</sys_created_on>
+        <sys_id>1e749ebc71de211028a62a7a9b37f406</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Evaluation</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ux_app_route_1e749ebc71de211028a62a7a9b37f406</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:28</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=1e749ebc71de211028a62a7a9b37f406"/>
+</record_update>

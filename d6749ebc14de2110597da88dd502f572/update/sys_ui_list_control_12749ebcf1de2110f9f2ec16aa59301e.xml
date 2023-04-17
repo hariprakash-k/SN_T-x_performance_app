@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="INSERT_OR_UPDATE">
+        <columns_condition/>
+        <disable_nlq>false</disable_nlq>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>x_962123_x_perfo_0_performance_review</name>
+        <new_condition/>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>true</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>false</omit_new_button>
+        <related_list/>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:10:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>12749ebcf1de2110f9f2ec16aa59301e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_962123_x_perfo_0_performance_review</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ui_list_control_12749ebcf1de2110f9f2ec16aa59301e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:10:52</sys_updated_on>
+    </sys_ui_list_control>
+</record_update>

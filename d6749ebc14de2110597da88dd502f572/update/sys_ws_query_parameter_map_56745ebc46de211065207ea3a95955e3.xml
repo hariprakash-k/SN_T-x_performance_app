@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map">
+    <sys_ws_query_parameter_map action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ws_query_parameter_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:04</sys_created_on>
+        <sys_id>56745ebc46de211065207ea3a95955e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>52745ebc4dde2110d26ca9581ce312e3</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_map_56745ebc46de211065207ea3a95955e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:04</sys_updated_on>
+        <web_service_operation display_value="Pull Properties">92745ebc48de2110d7c804acfbd1f1e3</web_service_operation>
+        <web_service_query_parameter display_value="property_name">52745ebc4dde2110d26ca9581ce312e3</web_service_query_parameter>
+    </sys_ws_query_parameter_map>
+</record_update>

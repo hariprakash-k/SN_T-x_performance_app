@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_962123_x_perfo_0.PRCheckPerfAppraisalSecurity</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Utilized in the ACL checks of Performance Appraisal App</description>
+        <name>PRCheckPerfAppraisalSecurity</name>
+        <script><![CDATA[var PRCheckPerfAppraisalSecurity = Class.create();
+PRCheckPerfAppraisalSecurity.prototype = {
+    initialize: function() {
+    },
+	// current : Performance Review Glide Record
+	findSuboridnatePR : function (current) {
+		var answer = false;
+		var subordinateUser = new GlideRecord('sys_user');
+		subordinateUser.addQuery('sys_id','=',current.getValue('employee'));
+		subordinateUser.addQuery('manager','=',gs.getUserID());
+		subordinateUser.query();
+		if (subordinateUser.next())
+			answer = true;
+		
+		return answer;
+
+	},
+	// role : scoped app admin user role
+	isAppAdmin : function (role){
+		
+		var answer = false;
+		var arrUtil = new global.ArrayUtil();
+		var strRoles = gs.getUser().getRoles().toString(); // string
+		var arrRoles = strRoles.split(','); // array
+		answer = arrUtil.contains(arrRoles,role);
+		return answer;
+
+	},
+	
+	// checks if the record is  New or Existing
+	// if Existing, Is current.employee.equals() gs.getUserID()
+	
+	findMyPR : function (current){
+		var answer = true ;
+		if (current.isValidRecord()) {			
+			answer = (current.getValue('employee') == gs.getUserID()) ? true : false ; 			
+		}		
+		return answer;
+		
+	},
+
+    type: 'PRCheckPerfAppraisalSecurity'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:14</sys_created_on>
+        <sys_id>da749ebc93de2110fdf21afc0c0b1b2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRCheckPerfAppraisalSecurity</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>sys_script_include_da749ebc93de2110fdf21afc0c0b1b2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:14</sys_updated_on>
+    </sys_script_include>
+</record_update>

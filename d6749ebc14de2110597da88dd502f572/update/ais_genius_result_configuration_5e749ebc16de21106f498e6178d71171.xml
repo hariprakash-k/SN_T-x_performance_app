@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_genius_result_configuration">
+    <ais_genius_result_configuration action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <handler_type>search</handler_type>
+        <name>Performance Review Genius</name>
+        <return_fields>employee,state,manager,number,review_period,evaluation_due,evaluation_sent_out</return_fields>
+        <script><![CDATA[function process(context) {
+	var answer = new sn_ais.GeniusResultAnswer();
+	answer.setTable('x_962123_x_perfo_0_performance_review');
+	answer.addSearchPhrases([context.getOriginalSearchPhrase()]);
+	answer.setSearchLimit(1);
+	return answer;
+}]]></script>
+        <sys_class_name>ais_genius_result_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-17 03:11:12</sys_created_on>
+        <sys_id>5e749ebc16de21106f498e6178d71171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Genius</sys_name>
+        <sys_package display_value="x_performance_app" source="x_962123_x_perfo_0">d6749ebc14de2110597da88dd502f572</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="x_performance_app">d6749ebc14de2110597da88dd502f572</sys_scope>
+        <sys_update_name>ais_genius_result_configuration_5e749ebc16de21106f498e6178d71171</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-17 03:11:12</sys_updated_on>
+        <term/>
+        <trigger_condition>always</trigger_condition>
+    </ais_genius_result_configuration>
+</record_update>
